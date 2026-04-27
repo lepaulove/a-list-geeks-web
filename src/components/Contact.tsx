@@ -31,7 +31,7 @@ export default function Contact() {
     try {
       // Send the form data AND the captchaToken to your secure backend
       // Make sure to replace this URL with your actual Firebase Cloud Function URL
-      const response = await fetch('YOUR_FIREBASE_CLOUD_FUNCTION_URL', {
+      const response = await fetch('https://submitcontactform-2ioela5vza-uc.a.run.app', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
